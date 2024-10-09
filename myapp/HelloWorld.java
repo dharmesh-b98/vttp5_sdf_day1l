@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Date;
+
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -120,6 +122,13 @@ public class HelloWorld {
 
         for (int z = 0 ; z < words.size(); z++){
             System.out.printf("%d : %s \n",z+1, words.get(z));
+
+
+        //DateTime
+        Date currentdate = new Date();
+        System.out.println(currentdate.toString());
+        
+
         }
     }
 }
